@@ -22,13 +22,12 @@ body header{
 }
 .sinapsis{
 width: 98%;
-height: 400px;
+height: 200px;
 margin:auto;
+padding-bottom: 20px;
 }
 .sinapsis div > p {
 	color: white;
-	margin-top:25px;
-	padding-left: 10px;
 	font-size: 25px;
 	width: 98%;
 	text-align: center;
@@ -41,6 +40,7 @@ float: left;
 
 
 .container{
+	background-image: url(https://www.adslzone.net/app/uploads-adslzone.net/2019/07/windows-10-negro.jpg);
 	margin-top: 150px;
 	width: 100%;
 	height: auto;
@@ -64,16 +64,39 @@ float: left;
 	text-align: center;
 }
 .capitulos div{
+	color: rgb(255,255,255);
 	display: inline-block;
 	width: 150px;
 	height: 200px;
 	margin: 25px;
 }
+.capitulos div > img{
+	width: 150px;
+	height: 200px;
+	}
+.capitulos div a{
+	position: absolute;
+	margin-top: -205px;
+	margin-left: -124px;
+	width: 150px;
+	height: 200px;
+	}
 
 
 footer{
-	background-color: red;
+	background-color: rgb(88, 82, 80);
 	width: 100%;
 	height: 300px;
 	margin-top: 90%;
 }
+
+footer div{
+	font-size: 50px;
+	text-align: center;
+	color: white;
+	width: 100%;
+	height: 100%;
+}
+footer div > p{
+	padding-top: 10%; 
+	}
