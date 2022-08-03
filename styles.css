@@ -9,6 +9,20 @@ body header{
 	text-align: end;
 	margin-right: 10px;
 }
+.arriba{
+	position: absolute;
+	margin-top: 0;
+	margin-left: -50px;
+}
+
+.home{
+	position: absolute;
+	margin-top: 33px;
+	width: 200px;
+	height: 40px;
+	border-radius: 100%;
+	
+}
 .logo{
 	border:solid;
 	border-radius: 10%;
@@ -17,6 +31,7 @@ body header{
 	width: 60px;
 	height: 60px;
 }
+
 .titulo{
 	width: 200px;
 }
@@ -40,7 +55,7 @@ float: left;
 
 
 .container{
-	background-image: url(https://www.adslzone.net/app/uploads-adslzone.net/2019/07/windows-10-negro.jpg);
+	background-image: url(https://media.istockphoto.com/photos/old-black-brick-wall-background-picture-id1155463855?b=1&k=20&m=1155463855&s=170667a&w=0&h=dhQpn040i9FZtihHxTlCHy1iszPuhkHBFUfFN6eoDFE=);
 	margin-top: 150px;
 	width: 100%;
 	height: auto;
@@ -81,7 +96,30 @@ float: left;
 	width: 150px;
 	height: 200px;
 	}
-
+.mas{
+	color: rgb(255,255,255);
+	text-align: center;
+	width: 99%;
+	height: auto;
+	margin-top: 100px;
+	margin-bottom: -80%;
+}
+.mas div > img{
+	width: 200px;
+	height: 250px;
+	display: grid;
+}
+.mas div {
+	display: inline-block;
+	margin: auto;
+}
+.mas a{
+	position: absolute;
+	margin-top: -250px;
+	margin-left: -149px;
+	width: 200px;
+	height: 250px;
+}
 
 footer{
 	background-color: rgb(88, 82, 80);
@@ -89,6 +127,7 @@ footer{
 	height: 300px;
 	margin-top: 90%;
 }
+
 
 footer div{
 	font-size: 50px;
